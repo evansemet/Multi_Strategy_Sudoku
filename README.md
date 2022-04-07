@@ -8,11 +8,13 @@ The two strategies used were standard backtracking and an SAT solver using Micro
 To no surprise, the Z3 strategy was significantly faster as a whole than the backtracking algorithm. However, the backtracking algorithm actually performed slightly better on the easiest board tested.
 
 Times (in seconds) for backtracking (on easy, medium, and hard board in that order):
-0.4456307888031006
-2.991603136062622
-6.835436105728149
+
+0.446   ||
+2.992   ||
+6.835 
 
 Times for Z3:
-0.5443072319030762
-0.6390235424041748
-0.9134602546691895
+
+0.544   ||
+0.639   ||
+0.913
